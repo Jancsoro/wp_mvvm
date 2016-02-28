@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace mvvmtestapp.Model
 {
-    class Accomplishment : INotifyPropertyChanged
+    public class Accomplishment : INotifyPropertyChanged
     {
-        public String name { get; set; }
-        public String type { get; set; }
+        public String Name { get; set; }
+        public String Type { get; set; }
         private int _count;
         public int Count
         {
